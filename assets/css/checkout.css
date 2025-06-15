@@ -1,0 +1,106 @@
+.billing-company,
+.billing-cui,
+.billing-reg-com {
+    display: none; /* Ascunde implicit câmpurile pentru companie */
+}
+
+/* Layout pentru câmpuri pe aceeași linie */
+.billing-cui.form-row-first {
+    float: left;
+    width: 48%;
+    margin-right: 4%;
+}
+
+.billing-reg-com.form-row-last {
+    float: left;
+    width: 48%;
+}
+
+/* Clear float după grupa de câmpuri */
+.billing-reg-com:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#billing_customer_type {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+/* Asigură alinierea corectă pe mobile */
+@media screen and (max-width: 768px) {
+    .billing-cui.form-row-first,
+    .billing-reg-com.form-row-last {
+        float: none;
+        width: 100%;
+        margin-right: 0;
+    }
+}
+
+/* Stiluri pentru câmpurile obligatorii */
+label.required:after {
+    content: " *";
+    color: #e2401c;
+}
+
+/* Stiluri pentru validare */
+.woocommerce-validated input {
+    border-color: #69bf29 !important;
+}
+
+.woocommerce-invalid input {
+    border-color: #e2401c !important;
+}
+
+/* Animație la afișare/ascundere */
+.billing-company,
+.billing-cui,
+.billing-reg-com {
+    transition: all 0.3s ease-in-out;
+}
+
+/* Stilizare pentru input-uri */
+#billing_cui,
+#billing_reg_com {
+    text-transform: uppercase;
+}
+
+#billing_cui.loading {
+    background-image: url('../img/loading.gif');
+    background-position: right 10px center;
+    background-repeat: no-repeat;
+    background-size: 16px;
+}
+
+/* When billing to company is checked, show CUI and Reg Com fields */
+.show-company-fields #billing_cui_field,
+.show-company-fields #billing_reg_com_field {
+    display: block !important;
+}
+
+/* When billing to company is not checked, hide CUI and Reg Com fields */
+.hide-company-fields #billing_cui_field,
+.hide-company-fields #billing_reg_com_field {
+    display: none !important;
+}
+
+/* Style the CUI and Reg Com fields to appear on the same line */
+#billing_cui_field,
+#billing_reg_com_field {
+    float: left;
+    width: 48%;
+    clear: none;
+}
+
+#billing_reg_com_field {
+    margin-left: 4%;
+}
+
+/* Clear float after the fields */
+#billing_company_field {
+    clear: both;
+}
