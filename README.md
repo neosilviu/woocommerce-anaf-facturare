@@ -62,4 +62,4 @@ Distribuit sub licența GPLv2 sau mai nouă. Vezi `LICENSE` pentru mai multe inf
 
 Nume Proiect - [@twitter_handle](https://twitter.com/twitter_handle)
 
-Link Proiect: [https://github.com/username/anaf-facturare](https://github.com/username/anaf-facturare)
+Link Proiect: [https://github.com/neosilviu/woocommerce-anaf-facturare](https://github.com/neosilviu/woocommerce-anaf-facturare)
