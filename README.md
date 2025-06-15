@@ -63,3 +63,17 @@ Distribuit sub licența GPLv2 sau mai nouă. Vezi `LICENSE` pentru mai multe inf
 Nume Proiect - [@twitter_handle](https://twitter.com/twitter_handle)
 
 Link Proiect: [https://github.com/neosilviu/woocommerce-anaf-facturare](https://github.com/neosilviu/woocommerce-anaf-facturare)
+
+## Changelog
+
+### 1.0.1 (15 Iunie 2025)
+- Adăugat suport pentru traduceri complete română/engleză
+- Îmbunătățit gestionarea erorilor API
+- Optimizat timpul de răspuns la căutarea CUI
+
+### 1.0.0 (15 Iunie 2025)
+- Lansare inițială
+- Integrare cu API-ul ANAF
+- Completare automată a câmpurilor în checkout
+- Validare CUI
+- Suport multilingv de bază

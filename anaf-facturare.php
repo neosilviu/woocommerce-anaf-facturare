@@ -2,11 +2,14 @@
 /**
  * Plugin Name: ANAF Facturare
  * Description: Integration with ANAF API for company lookup
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Your Name
  * License: GPL v2 or later
  * Text Domain: anaf-facturare
  * Domain Path: /languages
+ * 
+ * Changelog:
+ * 1.0.1 - Added complete translation support and improved error handling
  */
 
 defined('ABSPATH') || exit;
